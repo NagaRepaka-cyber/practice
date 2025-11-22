@@ -6,16 +6,16 @@ while x>10:
         print(x)
         break
 
-y=0
-while y>=0:
-    y=y+1
-    if y//2 == 0:
-        print(y,"even")
-    elif y//2 == 1:
-        print(y,"odd")
-    else:
-        break
-    print(y)
+#y=0
+#while y>=0:
+#    y=y+1
+#    if y//2 == 0:
+#        print(y,"even")
+#    elif y//2 == 1:
+#        print(y,"odd")
+#    else:
+#        break
+#    print(y)
     
     
 
