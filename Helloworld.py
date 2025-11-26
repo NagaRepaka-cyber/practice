@@ -1,6 +1,5 @@
-print("hello world.")
-
-
 import math
+
+print("hello world.")
 
 print(math.sqrt(16))
