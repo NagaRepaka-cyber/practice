@@ -1,12 +1,6 @@
 print("hello world.")
 
 
+import math
 
-
-def sum():
-    x=20
-    y=10
-    print(x+y)
-
-
-sum()
+print(math.sqrt(16))
