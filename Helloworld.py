@@ -1,6 +1,12 @@
 print("hello world.")
 
 
-x=20
-y=10
-print(x+y)
+
+
+def sum():
+    x=20
+    y=10
+    print(x+y)
+
+
+sum()
