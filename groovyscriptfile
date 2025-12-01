@@ -17,11 +17,14 @@ pipeline {
                 script {
                     echo "=== Running Python Script ==="
                     // running an external python file
-                    sh "python3 jenkinsgroovyscriptfile.py"
+                    sh "python3 sample.py"
                 }
             }
         }
     }
 }
  
-
+/* ------------------ Groovy Function ------------------ */
+def sumGroovy(a, b) {
+    return a + b
+}
