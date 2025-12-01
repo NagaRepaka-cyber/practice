@@ -1,3 +1,30 @@
+pipeline {
+    agent any
+ 
+    stages {
+ 
+        stage('Print Groovy Function Output') {
+            steps {
+                script {
+                    echo "=== Running Groovy Function ==="
+                    echo "Sum from Groovy = ${sumGroovy(10, 20)}"
+                }
+            }
+        }
+ 
+        stage('Run Python Function') {
+            steps {
+                script {
+                    echo "=== Running Python Script ==="
+                    // running an external python file
+                    sh "python3 sample.py"
+                }
+            }
+        }
+    }
+}
+ 
+/* ------------------ Groovy Function ------------------ */
 def sumGroovy(a, b) {
     return a + b
 }
