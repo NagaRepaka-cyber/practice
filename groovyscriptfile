@@ -16,8 +16,7 @@ pipeline {
             steps {
                 script {
                     echo "=== Running Python Script ==="
-                    // running an external python file
-                    sh "python3 sample.py"
+                    sh "python3 jenkinsgroovyscriptfile.py"
                 }
             }
         }
