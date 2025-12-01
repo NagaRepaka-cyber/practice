@@ -5,6 +5,10 @@ pipeline {
         stage('checkout') {
             steps {
                 echo 'Hello World'
+                def sum(x,y):
+                    print(x+y)
+
+                sum(2,4)
             }
         }
         stage('build') {
